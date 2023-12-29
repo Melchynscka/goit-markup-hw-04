@@ -170,6 +170,7 @@ address {
 
 /* Section-title 1*/
 .hero-section {
+  max-width: 1440px;
   background-color: #2e2f42;
   flex-shrink: 0;
   padding: 188px 0;
@@ -344,7 +345,7 @@ address {
   justify-content: center;
 }
 .icon-item {
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
 }
@@ -370,7 +371,7 @@ address {
   row-gap: 48px;
 }
 
-.cards:hover {
+.card-set:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -384,6 +385,9 @@ address {
   border-top: none;
   position: relative;
   overflow: hidden;
+}
+.card-description:hover {
+  transform: translateY(0%);
 }
 
 .portfolio-blok {
@@ -407,6 +411,20 @@ address {
 
 .subtitle {
   margin-bottom: 8px;
+}
+.new-pr {
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Footer */
@@ -482,7 +500,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link:hover {
   background-color: #31d0aa;
