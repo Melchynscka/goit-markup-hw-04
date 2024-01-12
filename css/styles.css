@@ -477,11 +477,12 @@ address {
   max-width: 264px;
   color: var(--CLOUD, #f4f4fd);
   letter-spacing: 0.02em;
-  margin-top: 18px;
+  margin-bottom: 16px;
 }
 .icon-footer {
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 
 .footer-link {
