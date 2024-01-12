@@ -449,13 +449,13 @@ address {
 .footer-container {
   display: flex;
   gap: 120px;
-  /* flex-direction: row;
-  padding: 0 15px; */
+  align-items: baseline;
 }
 
 .one-block {
   display: flex;
   flex-direction: column;
+  margin-right: 120px;
 }
 
 .logo-footer {
@@ -477,12 +477,11 @@ address {
   max-width: 264px;
   color: var(--CLOUD, #f4f4fd);
   letter-spacing: 0.02em;
-  /* margin-top: 18px; */
+  margin-top: 18px;
 }
 .icon-footer {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
 .footer-link {
@@ -490,7 +489,6 @@ address {
   flex-direction: row;
   gap: 16px;
   font-style: normal;
-  /* padding: 24px 0; */
 }
 
 .footer-social {
