@@ -448,7 +448,6 @@ address {
 }
 .footer-container {
   display: flex;
-  gap: 120px;
   align-items: baseline;
 }
 
@@ -477,7 +476,6 @@ address {
   max-width: 264px;
   color: var(--CLOUD, #f4f4fd);
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
 }
 .icon-footer {
   display: flex;
